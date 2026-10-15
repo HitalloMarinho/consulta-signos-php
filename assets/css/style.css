@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #17153b, #433d8b, #7e60bf);
+    color: #333;
+}
+
+/* Cartão principal */
+.signo-card {
+    width: 100%;
+    max-width: 500px;
+    border: none;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.97);
+    overflow: hidden;
+}
+
+/* Símbolo decorativo */
+.simbolo-signo {
+    font-size: 55px;
+    color: #7e60bf;
+}
+
+/* Título */
+.titulo-principal {
+    font-size: 32px;
+    font-weight: 700;
+    color: #312b65;
+}
+
+/* Texto explicativo */
+.subtitulo {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+/* Campo de nascimento */
+.form-label {
+    font-weight: 600;
+    color: #312b65;
+}
+
+.form-control {
+    border: 2px solid #e5e1f0;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #7e60bf;
+    box-shadow: 0 0 0 0.2rem rgba(126, 96, 191, 0.2);
+}
+
+/* Botão principal */
+.btn-signo {
+    background: linear-gradient(90deg, #7e60bf, #433d8b);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-signo:hover {
+    background: linear-gradient(90deg, #433d8b, #17153b);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Rodapé do cartão */
+.rodape-card {
+    color: #999;
+    font-size: 13px;
+}
+
+/* Página de resultado */
+.resultado-signo {
+    text-align: center;
+}
+
+.nome-signo {
+    font-size: 42px;
+    font-weight: 700;
+    color: #433d8b;
+}
+
+.descricao-signo {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Ajustes para telemóveis */
+@media (max-width: 576px) {
+    .signo-card {
+        margin: 20px;
+    }
+
+    .titulo-principal {
+        font-size: 26px;
+    }
+
+    .nome-signo {
+        font-size: 34px;
+    }
+}
